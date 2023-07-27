@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
+=======
+# This file is used for Git repositories to specify intentionally untracked files that Git should ignore.
+>>>>>>> 9f7fb96f36f7a8ed175b8e5b4dc9e0d73aaff291
 # If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
 # For useful gitignore templates see: https://github.com/github/gitignore
 
@@ -37,4 +41,8 @@ ehthumbs.db
 $RECYCLE.BIN/
 
 # Local environment variables
+<<<<<<< HEAD
 .env
+=======
+.env
+>>>>>>> 9f7fb96f36f7a8ed175b8e5b4dc9e0d73aaff291

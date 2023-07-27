@@ -5,8 +5,15 @@
       "default": true
     }
   ],
+<<<<<<< HEAD
   "name": "myDevHub",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "56.0"
+=======
+  "name": "dx-empty",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0"
+>>>>>>> 9f7fb96f36f7a8ed175b8e5b4dc9e0d73aaff291
 }

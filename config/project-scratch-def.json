@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "orgName": "Demo company",
+=======
+  "orgName": "my company",
+>>>>>>> 9f7fb96f36f7a8ed175b8e5b4dc9e0d73aaff291
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi"],
   "settings": {

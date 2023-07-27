@@ -21,7 +21,11 @@
     "@salesforce/eslint-config-lwc": "^3.2.3",
     "@salesforce/eslint-plugin-aura": "^2.0.0",
     "@salesforce/eslint-plugin-lightning": "^1.0.0",
+<<<<<<< HEAD
     "@salesforce/sfdx-lwc-jest": "^1.2.1",
+=======
+    "@salesforce/sfdx-lwc-jest": "^1.1.0",
+>>>>>>> 9f7fb96f36f7a8ed175b8e5b4dc9e0d73aaff291
     "eslint": "^8.11.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.2",

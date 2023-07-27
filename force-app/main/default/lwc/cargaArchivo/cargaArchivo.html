@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Cargar Archivo" icon-name="standard:file">
+        <template if:false={IsSpinner}>
+            <div class="exampleHolder slds-align_absolute-center">
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </div>
+            <template if:true={fileData}>
+                <p>Cargando {fileData.filename}</p>
+            </template>
+        </template>
+        <template if:true={IsSpinner}>
+            <div class="slds-m-around_medium">
+                <lightning-input type="file" 
+                accept=".xlsx, .xls, .csv, .png, .doc, .docx, .pdf"
+                label="Attachment" onchange={openfileUpload}></lightning-input>
+            </div>
+            <template if:true={fileData}>
+                <p>{fileData.filename}</p>
+            </template>
+            <lightning-button variant="brand" label="submit" title="Submit" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__All_Jobs</fullName>
+    <columns>NAME</columns>
+    <columns>relax__Apex_Class__c</columns>
+    <columns>relax__IsActive__c</columns>
+    <columns>relax__Run_Individually__c</columns>
+    <columns>relax__Order__c</columns>
+    <columns>relax__Status__c</columns>
+    <columns>relax__Last_Run__c</columns>
+    <columns>relax__Next_Run__c</columns>
+    <columns>relax__JobSchedulerId__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Jobs</label>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Apex_Class__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of the Apex Class that this Job will invoke. Must either implement Schedulable (for individually-scheduled Jobs) or relax.BatchableProcessStep (for aggregable Jobs, which Relax can run as part of an ordered sequence)</description>
+    <externalId>false</externalId>
+    <label>Apex Class</label>
+    <length>100</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

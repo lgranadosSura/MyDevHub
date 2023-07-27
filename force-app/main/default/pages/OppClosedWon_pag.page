@@ -1,0 +1,21 @@
+<apex:page controller="OppClosedWon_ctr" title="Oportunidades Cerradas Ganadas" sidebar="false" cache="true" contentType="{!IF(isExport = true, 'application/vnd.ms-excel#report.xls', '')}">
+    <apex:form>
+        <apex:sectionHeader title="Oportunidades" subtitle="Cerradas Ganadas">
+            <apex:pageBlock title="Ganadas">
+                <apex:pageBlockTable value="{!oppLst}" var="opp" width="75%">
+                    <apex:column headerValue="Nombre">
+                        <apex:outputLink value="/apex/viewOppPdf_pag?oppId={!opp.Id}">{!opp.Name}</apex:outputLink>
+                    </apex:column>
+                    <apex:column value="{!opp.Account.Name}" headerValue="Cuenta"/>
+                    <apex:column value="{!opp.Amount}" headerValue="Monto"/>
+                    <apex:column value="{!opp.CloseDate}" headerValue="Fecha de cierre"/>
+                    <apex:column value="{!opp.StageName}" headerValue="Etapa"/>
+                    <apex:column value="{!opp.Type}" headerValue="Tipo"/>
+                </apex:pageBlockTable>
+                <apex:pageBlockButtons>
+                    <apex:commandButton action="{!Dowload}" value="Descargar" />
+                </apex:pageBlockButtons>
+            </apex:pageBlock>
+        </apex:sectionHeader>
+    </apex:form>
+</apex:page>

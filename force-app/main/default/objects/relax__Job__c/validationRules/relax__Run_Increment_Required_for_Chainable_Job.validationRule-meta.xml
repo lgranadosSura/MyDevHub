@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Run_Increment_Required_for_Chainable_Job</fullName>
+    <active>true</active>
+    <description>For a Job to be chained, Run Increment and Run Units are required.</description>
+    <errorConditionFormula>AND(
+NOT(relax__Run_Individually__c),
+NOT(relax__Only_Run_Once__c),
+OR(ISBLANK(relax__Run_Increment__c),ISBLANK(TEXT(relax__Run_Units__c)))
+)</errorConditionFormula>
+    <errorMessage>For a Job to be chained (i.e. not run individually), a valid Run Increment and Run Units must be specified.</errorMessage>
+</ValidationRule>

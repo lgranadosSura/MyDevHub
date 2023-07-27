@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>R_Token</label>
+    <protected>false</protected>
+    <values>
+        <field>RefreshToken__c</field>
+        <value xsi:type="xsd:string">1//04lb7Ks_jsJ_uCgYIARAAGAQSNwF-L9Ir4EwmAnt-lYM7b3BzNKYaAd0Ug9AEgWB9514j-CY1mT05vwhfldlGbnsNy66hG1cT4Zw</value>
+    </values>
+</CustomMetadata>

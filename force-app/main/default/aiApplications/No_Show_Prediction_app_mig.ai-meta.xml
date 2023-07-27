@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>No_Show_Prediction_app_mig</developerName>
+    <masterLabel>No_Show_Prediction</masterLabel>
+    <status>Enabled</status>
+    <type>PredictionBuilder</type>
+</AIApplication>

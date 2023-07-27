@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pago_atrasado</fullName>
+    <columns>NAME</columns>
+    <columns>Email__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Invoice_Status__c</columns>
+    <columns>Pago_Atrasado__c</columns>
+    <columns>Prediccion_Pago_Atrasado__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Invoice_Status__c</field>
+        <operation>equals</operation>
+        <value>Pending</value>
+    </filters>
+    <filters>
+        <field>Prediccion_Pago_Atrasado__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>10</value>
+    </filters>
+    <label>Pago atrasado</label>
+</ListView>

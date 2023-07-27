@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Individual_Jobs_Require_CRON_Schedule</fullName>
+    <active>true</active>
+    <description>Any Job with Run Individually set to true must have a valid CRON Schedule specified.</description>
+    <errorConditionFormula>AND(
+relax__Run_Individually__c,
+ISBLANK(relax__Cron_Schedule__c)
+)</errorConditionFormula>
+    <errorDisplayField>relax__Cron_Schedule__c</errorDisplayField>
+    <errorMessage>A valid CRON Schedule must be specified for a Job to be run individually.</errorMessage>
+</ValidationRule>

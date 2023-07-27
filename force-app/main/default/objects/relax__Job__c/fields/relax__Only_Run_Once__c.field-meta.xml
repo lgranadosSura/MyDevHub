@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Only_Run_Once__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, then this Job will only be run once, at which point it will be made in-active.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, then this Job will only be run once, at which point it will be made in-active.</inlineHelpText>
+    <label>Only Run Once</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

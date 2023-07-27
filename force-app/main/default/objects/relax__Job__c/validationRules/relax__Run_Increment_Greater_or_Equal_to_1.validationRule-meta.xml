@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Run_Increment_Greater_or_Equal_to_1</fullName>
+    <active>true</active>
+    <description>Run Increment must be greater than or equal to 1</description>
+    <errorConditionFormula>AND(
+NOT(relax__Run_Individually__c),
+OR(
+ISBLANK(relax__Run_Increment__c),
+relax__Run_Increment__c &lt; 1
+)
+)</errorConditionFormula>
+    <errorDisplayField>relax__Run_Increment__c</errorDisplayField>
+    <errorMessage>Run Increment must be at least 1.</errorMessage>
+</ValidationRule>

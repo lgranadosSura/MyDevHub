@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_to_Confirm</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Predicted_No_Show__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Upcoming</value>
+    </filters>
+    <filters>
+        <field>Predicted_No_Show__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>20</value>
+    </filters>
+    <label>Call to Confirm</label>
+</ListView>

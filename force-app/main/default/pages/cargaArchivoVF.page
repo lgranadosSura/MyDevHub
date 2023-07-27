@@ -1,0 +1,41 @@
+<apex:page controller="GoogleDriveController">
+    <style>
+        .error {
+        font-style: italic;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: green;
+        }
+    
+        .myClass {
+        color: black !important;
+        background: #145a32 !important;
+        width: 300px;
+        font-size: 20px !important;
+        height: 35px;
+        }
+	</style>
+	<center>
+        <apex:form style="margin-top:5%;margin-left:5%;width:60%">
+            <apex:pageblock >
+            <apex:commandbutton styleClass="myClass" onclick="this.value = 'Authenticating....'" action="{!DriveAuth}" value="Google Drive Authentication">
+            </apex:commandbutton>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <apex:inputfile value="{!file}" contentType="{!filetype}" filename="{!filename}" />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <apex:commandButton styleClass="myClass" onclick="this.value = 'Uploading...'" value="Upload file" action="{!UploadFile}" />
+            <br/>
+            <br/>
+            <apex:messages styleClass="error" />
+            <br/>
+            </apex:pageblock>
+        </apex:form>
+	</center>
+</apex:page>

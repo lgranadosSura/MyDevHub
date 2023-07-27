@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Run_Individually__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true, a dedicated Scheduled Apex Job will be allocated to this Job. Otherwise, Relax will attempt to piggyback this Job onto others.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If true, a dedicated Scheduled Apex Job will be allocated to this Job. Otherwise, Relax will attempt to piggyback this Job onto others.</inlineHelpText>
+    <label>Run Individually</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

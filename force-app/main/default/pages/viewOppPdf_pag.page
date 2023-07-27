@@ -1,0 +1,22 @@
+<apex:page controller="OppClosedWon_ctr" renderAs="pdf">
+    <apex:stylesheet value = "{!$Resource.stylevf}"/>
+    <apex:form>
+        <apex:pageBlock>
+            <h2>Información Oportunidad {!objOpp.Id}</h2>
+            <h1>DETALLES</h1>
+            <apex:pageBlockSection columns="1">
+                <b>Nombre:</b> {!objOpp.Name} &nbsp;&nbsp; <br/>
+                <br/>
+                <b>Cuenta:</b> {!objOpp.Account.Name} &nbsp;&nbsp; <br/>
+                <br/>
+                <b>Monto:</b> {!objOpp.Amount} &nbsp;&nbsp; <br/>
+                <br/>
+                <b>Fecha de cierre:</b> {!objOpp.CloseDate} &nbsp;&nbsp; <br/>
+                <br/>
+                <b>Etapa:</b> {!objOpp.StageName} &nbsp;&nbsp; <br/>
+                <br/>
+                <b>Tipo:</b> {!objOpp.Type} &nbsp;&nbsp; <br/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

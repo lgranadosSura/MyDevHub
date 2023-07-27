@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Only_Run_Once_Requirements</fullName>
+    <active>true</active>
+    <description>For a Job to be Active and only run once, it must have a non-null Next Run.</description>
+    <errorConditionFormula>AND(
+relax__IsActive__c,
+relax__Only_Run_Once__c,
+ISBLANK(relax__Next_Run__c)
+)</errorConditionFormula>
+    <errorDisplayField>relax__Next_Run__c</errorDisplayField>
+    <errorMessage>For a Job to be Active and only set to run once, the job&apos;s Next Run time must be non-null.</errorMessage>
+</ValidationRule>

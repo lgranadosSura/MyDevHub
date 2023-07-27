@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used for sequencing piggybacked jobs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this Job runs at the same time as another, Order determines which Job will execute when.</inlineHelpText>
+    <label>Order</label>
+    <precision>9</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>relax__Parameters__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Additional run parameters to be sent in to this Job as a string (i.e. JSON)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional parameters to be passed in to this Job&apos;s Apex Class as a string. Could be comma-separated record ids, JSON, XML, whatever you want to use within your class.</inlineHelpText>
+    <label>Parameters (optional)</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

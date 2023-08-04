@@ -1,0 +1,7 @@
+organization=lgranadossura
+projectKey=lgranadossura
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.44673
+dashboardUrl=https://sonarcloud.io/dashboard?id=lgranadossura
+ceTaskId=AYnBBnEwPnjC2OLvKAb0
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYnBBnEwPnjC2OLvKAb0

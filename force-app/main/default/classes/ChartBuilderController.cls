@@ -8,7 +8,7 @@ public inherited sharing class ChartBuilderController {
   /*******************************************************************************************************
    * @description Not used for this class
    * @param chartDataProviderType String containing the ChartDataProvider type to instanciate to get the data
-   * @param ctx Object to pass the context to get the data
+   * @param ctx Object to pass the context to get the data.
    */
   @AuraEnabled(cacheable=true)
   public static List<ChartDataProvider.ChartData> getChartData(

@@ -2,7 +2,7 @@
  * @author lwcc
  * @date 2020
  *
- * @description Chart Data Provider abstract class. It define the type the chartBuilder component can use to get data
+ * @description Chart Data Provider abstract class. It define the type the chartBuilder component can use to get data.
  */
 global inherited sharing abstract class ChartDataProvider {
   /*******************************************************************************************************

@@ -2,7 +2,7 @@
  * @author lwcc
  * @date 2020
  *
- * @description Demo Chart Data Provider class. Used to get demo values for chart
+ * @description Demo Chart Data Provider class. Used to get demo values for chart-
  */
 public inherited sharing class DemoDataProvider extends ChartDataProvider {
   /******************************************************************************************************
